@@ -6,7 +6,7 @@
 ## 基本用法
 ``` bash
 $ npm install -g vue-cli
-$ vue init mpvue/mpvue-quickstart my-project
+$ vue init Xy2002/mpvue-template my-project
 $ cd my-project
 $ npm install
 $ npm run dev
