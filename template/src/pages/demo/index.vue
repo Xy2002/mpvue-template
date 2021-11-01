@@ -72,7 +72,7 @@ export default {
       let res = await this.$http.get('topics', {
         tab: 'all',
         page: 1,
-        limit: 5,
+        limit: 5
       })
       this.list = res.data
     },
