@@ -8,7 +8,7 @@
       <p>支持vue双向绑定，简单js计算</p>
     </div>
     this is demo page
-    <p>{{field1}}   {{1+1}}{{1+1 ? 'is true' : 'is false'}}</p>
+    <p>{{field1}}</p>
     <div class="title">scss，scss-resource能力
       <p>npm install sass-loader node-sass sass-resources-loader</p>
     </div>
