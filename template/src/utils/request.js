@@ -1,5 +1,4 @@
 import Fly from 'flyio/dist/npm/wx'
-
 const request = new Fly()
 const showToast = (title) => {
   wx.showToast({
@@ -15,7 +14,6 @@ request.interceptors.request.use((request) => {
   wx.showLoading({ title: '加载中...' })
   return request
 })
-
 
 request.interceptors.response.use(
   (response) => {

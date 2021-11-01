@@ -54,10 +54,10 @@ export default {
     let res = await getCNodeAllTab() // api方式
     this.list = res.data
   },
-  onReachBottom() {
+  onReachBottom () {
     console.log('searchScrollLower')
   },
-  onPullDownRefresh() {
+  onPullDownRefresh () {
     console.log('PullDownRefresh')
   },
   onPageScroll () {
@@ -85,6 +85,7 @@ export default {
 </script>
 
 <style lang="scss">
+@import "src/assets/css/variable";
 .p-demo {
   margin: 20px;
   font-size: 14px;
