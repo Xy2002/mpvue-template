@@ -1,6 +1,7 @@
 # mpvue-quickstart
 
 > fork 自 [vuejs-templates/webpack](https://github.com/vuejs-templates/webpack)修改而来。
+> 集成Vuex+Sass+Sass resource+flyio
 
 ## 基本用法
 ``` bash
