@@ -13,11 +13,6 @@
       <p>npm install sass-loader node-sass sass-resources-loader</p>
     </div>
     <div class="title">
-      图片路径方式
-    </div>
-    <img class="u-img" src="/static/img/camera.png"/>
-    <img class="u-img" src="../../assets/img/camera.png"/>
-    <div class="title">
       Vuex Store
       <p>store绑定到vue原型链，使得各页面共享</p>
     </div>
